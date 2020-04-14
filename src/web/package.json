@@ -19,6 +19,7 @@
     "node-fetch": "^2.6.0",
     "react": "^16.13.1",
     "react-apollo": "^3.1.4",
+    "react-compare-image": "^2.0.4",
     "react-dom": "^16.13.1",
     "react-dropzone": "latest",
     "react-router-dom": "^5.1.2",
