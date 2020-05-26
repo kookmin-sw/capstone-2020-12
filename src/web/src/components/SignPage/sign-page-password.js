@@ -1,6 +1,6 @@
-import React from 'react'
-import { Input, Form } from 'antd'
-import { LockOutlined } from '@ant-design/icons'
+import React from 'react';
+import { Input, Form } from 'antd';
+import { LockOutlined } from '@ant-design/icons';
 
 function SignPagePassword (props) {
   return (
@@ -16,12 +16,12 @@ function SignPagePassword (props) {
             required: true,
             message: '비밀번호를 입력하세요.'
           }
-        ]}
+          ]}
       >
         <Input.Password prefix={<LockOutlined className="site-form-item-icon"/>} placeholder="Password" onChange={props.onChangePassword}/>
       </Form.Item>
     </div>
-  )
+  );
 }
 
-export default SignPagePassword
+export default SignPagePassword;

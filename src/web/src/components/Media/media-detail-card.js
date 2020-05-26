@@ -10,6 +10,7 @@ function MediaInfo (props) {
       <List>
         <List.Item
           actions={[
+            // eslint-disable-next-line react/jsx-key
             <div>
               {
                 // 작성자와 로그인 정보가 같을 경우에만 deleteButton 보이도록 설정
@@ -44,8 +45,8 @@ function MediaDetailCard (props) {
       {/* media */}
       {
         (props.media.__typename === "Photo")
-        ? <ImageCompare url={props.media.url} originalUrl={props.media.originalUrl}/>
-        : <video style={{width: '100%', margin: 'auto', paddingTop: 50, paddingBottom: 30}} src={props.media.url} controls/>
+          ? <ImageCompare url={props.media.url} originalUrl={props.media.originalUrl}/>
+          : <video style={{width: '100%', margin: 'auto', paddingTop: 50, paddingBottom: 30}} src={props.media.url} controls/>
 
       }
       {/* 상세 정보 */}

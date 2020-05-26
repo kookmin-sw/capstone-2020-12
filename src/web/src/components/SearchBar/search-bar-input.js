@@ -1,6 +1,6 @@
-import React from 'react'
-import { Input } from 'antd'
-import { SearchOutlined } from '@ant-design/icons'
+import React from 'react';
+import { Input } from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
 
 function SearchBarInput (props) {
   return (
@@ -12,7 +12,7 @@ function SearchBarInput (props) {
         onPressEnter={props.onPressEnter}
       />
     </div>
-  )
+  );
 }
 
-export default SearchBarInput
+export default SearchBarInput;

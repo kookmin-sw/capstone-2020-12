@@ -1,5 +1,5 @@
-import React from 'react'
-import { DatePicker } from 'antd'
+import React from 'react';
+import { DatePicker } from 'antd';
 
 function SearchBarYearSelect (props) {
   return (
@@ -9,7 +9,7 @@ function SearchBarYearSelect (props) {
         onChange={props.onChangeYear}
       />
     </div>
-  )
+  );
 }
 
-export default SearchBarYearSelect
+export default SearchBarYearSelect;

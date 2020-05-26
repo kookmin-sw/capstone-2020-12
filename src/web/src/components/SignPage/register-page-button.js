@@ -1,5 +1,5 @@
-import React from 'react'
-import { Button, Form } from 'antd'
+import React from 'react';
+import { Button, Form } from 'antd';
 
 function RegisterPageButton (props) {
   return (
@@ -9,7 +9,7 @@ function RegisterPageButton (props) {
         Register
       </Button>
     </Form.Item>
-  )
+  );
 }
 
-export default RegisterPageButton
+export default RegisterPageButton;

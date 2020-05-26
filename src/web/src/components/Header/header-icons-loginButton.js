@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Button, Avatar } from 'antd'
-import { UserOutlined } from '@ant-design/icons'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Avatar } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 
 function LoginButton () {
   return (
@@ -12,7 +12,7 @@ function LoginButton () {
         &nbsp;&nbsp;로그인
       </Button>
     </Link>
-  )
+  );
 }
 
-export default LoginButton
+export default LoginButton;

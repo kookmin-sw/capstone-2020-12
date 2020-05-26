@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Button, Form } from 'antd'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Form } from 'antd';
 
 function LoginPageButton (props) {
   return (
@@ -13,7 +13,7 @@ function LoginPageButton (props) {
         Register
       </Link>
     </Form.Item>
-  )
+  );
 }
 
-export default LoginPageButton
+export default LoginPageButton;

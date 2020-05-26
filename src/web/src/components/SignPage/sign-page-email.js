@@ -1,6 +1,6 @@
-import React from 'react'
-import {Input, Form} from 'antd'
-import { UserOutlined } from '@ant-design/icons'
+import React from 'react';
+import {Input, Form} from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 
 function SignPageEmail (props) {
   return (
@@ -17,12 +17,12 @@ function SignPageEmail (props) {
             required: true,
             message: '이메일을 입력하세요.'
           }
-        ]}
+          ]}
       >
         <Input prefix={<UserOutlined className="site-form-item-icon"/>} placeholder="Email" onChange={props.onChangeEmail}/>
       </Form.Item>
     </div>
-  )
+  );
 }
 
-export default SignPageEmail
+export default SignPageEmail;

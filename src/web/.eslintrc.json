@@ -25,7 +25,6 @@
     "rules": {
         "semi": [2],
         "indent": [2, 2],
-        "react/prop-types": 0,
-        "react-hooks/rules-of-hooks": "error" // Checks rules of Hooks
-    }
+        "react/prop-types": 0
+        }
 }

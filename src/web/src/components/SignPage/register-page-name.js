@@ -1,5 +1,5 @@
-import React from 'react'
-import {Input, Form} from 'antd'
+import React from 'react';
+import {Input, Form} from 'antd';
 
 function RegisterPageName (props) {
   return (
@@ -16,12 +16,12 @@ function RegisterPageName (props) {
             required: true,
             message: '이름을 입력하세요.'
           }
-        ]}
+          ]}
       >
         <Input placeholder="Name" onChange={props.onChangeName}/>
       </Form.Item>
     </div>
-  )
+  );
 }
 
-export default RegisterPageName
+export default RegisterPageName;

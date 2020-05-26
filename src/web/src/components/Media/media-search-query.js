@@ -1,8 +1,8 @@
-import React from 'react'
-import { useQuery } from '@apollo/react-hooks'
-import MediaList from './media-list'
-import gql from 'graphql-tag'
-import { Spin } from 'antd'
+import React from 'react';
+import { useQuery } from '@apollo/react-hooks';
+import MediaList from './media-list';
+import gql from 'graphql-tag';
+import { Spin } from 'antd';
 
 const SearchQuery = gql`
   query searchItems($queryStr: String!, $location: String!, $yearTo: Int, $yearFrom: Int) {
@@ -32,10 +32,10 @@ function MediaSearchQuery (props) {
     },
     errorPolicy: 'all',
     fetchPolicy: 'cache-and-network'
-  })
-  if (loading) return <Spin tip="Loading..." style={{ paddingTop: "23%", paddingLeft: "47%" }}/>
-  if (error) return <div>Error: {error.message}</div>
-  if (data.search.length === 0) return <div style={{ width: '70%', margin: '3rem auto' }}>찾은 결과가 없습니다.</div>
+  });
+  if (loading) return <Spin tip="Loading..." style={{ paddingTop: "23%", paddingLeft: "47%" }}/>;
+  if (error) return <div>Error: {error.message}</div>;
+  if (data.search.length === 0) return <div style={{ width: '70%', margin: '3rem auto' }}>찾은 결과가 없습니다.</div>;
   return (
     <MediaList data={data.search}/>
   );

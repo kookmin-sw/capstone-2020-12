@@ -1,6 +1,6 @@
-import React from 'react'
-import { Button } from 'antd'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Button } from 'antd';
+import { Link } from 'react-router-dom';
 
 function SearchBarSubmitButton (props) {
   return (
@@ -10,7 +10,7 @@ function SearchBarSubmitButton (props) {
         Search
       </Button>
     </Link>
-  )
+  );
 }
 
-export default SearchBarSubmitButton
+export default SearchBarSubmitButton;
