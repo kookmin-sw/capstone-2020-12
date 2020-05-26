@@ -13,7 +13,7 @@ function Header () {
       <Col offset={2} xs={{span: 5, offset: 1}} sm={{span:7.5}} md={{span: 10}} xl={{span: 15}} xxl={{offset: 2, span: 14}} style={{marginTop: '10px', marginBottom:'10px'}}>
         <SearchBar/>
       </Col>
-      <Col flex={1.5} xxl={{offset: 2}}>
+      <Col flex={1.5} md={{offset:2}} xxl={{offset: 2}}>
         <HeaderIcons/>
       </Col>
     </Row>

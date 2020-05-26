@@ -6,7 +6,7 @@ import LoginButton from './header-icons-loginButton';
 
 function HeaderIcons () {
   return (
-    <Row justify="center">
+    <Row>
       <Col>
         <UploadButton />
       </Col>
