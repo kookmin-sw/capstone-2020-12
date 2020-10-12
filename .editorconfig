@@ -1,0 +1,37 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final-newline = true
+trim_trailing_whitespace = true
+
+# markup
+
+[*.html]
+indent_style = tab
+
+[*.{css,scss,sass}]
+indent_style = tab
+
+# programming
+
+[*.py]
+indent_style = tab
+max_line_length = 119
+
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 99
+
+[*.cu]
+indent_style = tab
+
+[*.cpp]
+indent_style = space
+indent_size = 2
+
+[*.c]
+indent_style = space
+indent_size = 2
